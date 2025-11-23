@@ -1,0 +1,12 @@
+# Nội dung .gitignore bạn đã tạo:
+
+# Loại trừ các thư mục dữ liệu huấn luyện
+chuso/augmented_images/
+chuso/handwritten-english-characters-and-digits/
+
+# Loại trừ các thư mục dữ liệu huấn luyện
+hinhhoc/shapes/ # <= QUAN TRỌNG: Dòng này loại trừ tất cả ảnh trong thư mục shapes/
+
+# Loại trừ các file mô hình đã huấn luyện (.keras)
+chuso/*.keras
+hinhhoc/*.keras
