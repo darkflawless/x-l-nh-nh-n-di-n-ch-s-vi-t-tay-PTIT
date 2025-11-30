@@ -36,7 +36,7 @@ Cả hai đều được huấn luyện từ đầu (from scratch) bằng Tensor
 
 | Mô hình                     | Số lớp | Độ chính xác trên tập Test | Ghi chú                                              |
 |-----------------------------|--------|-----------------------------|------------------------------------------------------|
-| Nhận diện 4 hình học        | 4      | **99.44% – 99.90%**         | Đánh giá khoa học, biểu đồ đẹp, rất ổn định          |
+| Nhận diện 4 hình học        | 4      | **99.44% – 99.90%**         |  Biểu đồ đẹp, rất ổn định          |
 | Nhận diện chữ số 0-9        | 10     | **98.70% – 99.50%**         | Chịu được ảnh xoay 90°, 180°, 270° hoàn toàn         |
 
 
@@ -44,4 +44,4 @@ Cả hai đều được huấn luyện từ đầu (from scratch) bằng Tensor
 ---
 
 ### 4. Cách chạy chương trình
-ở cả hai folder là chuso và hinhhoc , chạy 2 file test.py để test mô hình 
+ở cả hai folder là chuso và hinhhoc ta cần chạy 2 file test.py để test mô hình 
