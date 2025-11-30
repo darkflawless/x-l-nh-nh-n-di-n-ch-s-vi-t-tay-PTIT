@@ -47,10 +47,10 @@ def predict_from_array(img_array):
 class HandwritingApp:
     def __init__(self):
         self.root = tk.Tk()
-        self.root.title("Nhận dạng Chữ số & Chữ cái - CNN")
+        self.root.title("Nhận dạng Chữ số cnn")
         self.root.geometry("500x650")
         
-        Label(self.root, text="VẼ CHỮ SỐ/CHỮ CÁI HOẶC CHỌN ẢNH", 
+        Label(self.root, text="VẼ CHỮ SỐ HOẶC CHỌN ẢNH", 
               font=("Arial", 14, "bold")).pack(pady=10)
         
         self.canvas_size = 300

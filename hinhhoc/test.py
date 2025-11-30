@@ -11,7 +11,7 @@ IMG_SIZE = 64  # Model được train với 64x64
 CLASSES = ['circle', 'square', 'star', 'triangle']
 CLASSES_VN = ['Hình tròn', 'Hình vuông', 'Ngôi sao', 'Tam giác']
 
-model = keras.models.load_model(r"C:\Users\Admin\Desktop\xla\hinhhoc\best_shape_model.keras")
+model = keras.models.load_model(r"C:\Users\Admin\Desktop\xla\hinhhoc\best_shape_balanced.keras")
 print("Đã load model!")
 
 # ============ HÀM DỰ ĐOÁN ============
